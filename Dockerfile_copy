@@ -1,0 +1,4 @@
+FROM tensorflow/tensorflow:latest-gpu
+RUN pip install scikit-learn scipy matplotlib statsmodels pandas seaborn ipython pycircstat nose
+
+
